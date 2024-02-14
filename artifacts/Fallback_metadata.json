@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"FallbackExample.sol": "Fallback"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"FallbackExample.sol": {
+			"keccak256": "0x565db20f33d71f1f1d5b43b0a947048df2a8039a19f4078b935fe9b6cee1b412",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b4b1861bf4024307ca254b9c4dc4cf77d22362c2bfe1245493d3035c6e4d7cf1",
+				"dweb:/ipfs/QmTJzeiXp7kwzJ671M86Aia24H36jK2TxpyQzSGjNRQfzL"
+			]
+		}
+	},
+	"version": 1
+}
