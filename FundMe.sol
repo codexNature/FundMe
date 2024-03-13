@@ -111,10 +111,10 @@ contract FundMe {
         _; //its gonna execute the require statement first and the uderscore is whatever else you wanna do in the function.
             // and if the underscore is above the require statement it means do require statement last within the function, do others first, in this case the function is the withdrawal function.
     }
-    //A modifier allows us to create a keyword that we can put right in the function declaration to add some functionality very quickly and easily.
+    //A modifier allows us to create a keyword that we can put right in the function declaration to add some functionality very quickly and easily. paticulary things are gonna be using often
 
 
-    //What happens if someone send ETH to the contract without callong the fund function.
+    //What happens if someone send ETH to the contract without calling the fund function.
     receive() external payable {
         fund();
     }
